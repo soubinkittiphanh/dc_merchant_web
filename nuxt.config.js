@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-
+import { hostName } from './common'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -67,8 +67,9 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
+    baseURL: hostName(),
     // baseURL: 'https://nodejsclusters-124154-0.cloudclusters.net'// UAT API
-    baseURL: 'https://nodejsclusters-99563-0.cloudclusters.net' //PRODUCTION PEEAIR4 API
+    // baseURL: 'https://nodejsclusters-99563-0.cloudclusters.net' //PRODUCTION PEEAIR4 API
     // baseURL: 'https://nodejsclusters-130797-0.cloudclusters.net' //PRODUCTION JACK42 API
     // baseURL: 'http://localhost:8080',
     // credentials: true,
