@@ -4,8 +4,8 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - Website',
-    title: 'Jack42',
-    // title: 'PeeAir4',
+    // title: 'Jack42',
+    title: 'PeeAir4',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,8 +16,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/jack.jpeg' }
-      // { rel: 'icon', type: 'image/x-icon', href: '/peeair.jpeg' }
+      // { rel: 'icon', type: 'image/x-icon', href: '/jack.jpeg' }
+      { rel: 'icon', type: 'image/x-icon', href: '/peeair.jpeg' }
     ],
     script: [
       {
