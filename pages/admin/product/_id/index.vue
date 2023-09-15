@@ -103,10 +103,10 @@
           <v-row justify="space-around">
             <v-list-item-avatar
               @click.prevent="
-                previewImg(`https://nodejsclusters-99563-0.cloudclusters.net/${img.name}`)
+                previewImg(`${host}/${img.name}`)
               "
             >
-              <v-img :src="`https://nodejsclusters-99563-0.cloudclusters.net/${img.name}`">
+              <v-img :src="`${host}/${img.name}`">
               </v-img>
             </v-list-item-avatar>
             <v-spacer></v-spacer>
@@ -163,6 +163,7 @@
 </template>
 <script>
 // import ImagePreviewMixin from '../mixins/ImagePreviewMixin.vue'
+import { hostName } from '~/common'
 import ImagePreviewMixin from '../index.vue'
 export default {
   middleware: 'auths',
@@ -189,6 +190,11 @@ export default {
       dia_confirm: false,
       tempImgId: null,
     }
+  },
+  computed:{
+    host() {
+            return hostName()
+        },
   },
   methods: {
     validateLocal() {

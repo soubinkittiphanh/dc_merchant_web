@@ -5,7 +5,8 @@ export default {
   head: {
     titleTemplate: '%s - Website',
     // title: 'Jack42',
-    title: 'PeeAir4',
+    // title: 'PeeAir4',
+    title: 'D-Book LIVE',
     htmlAttrs: {
       lang: 'en'
     },

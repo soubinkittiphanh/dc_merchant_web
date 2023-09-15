@@ -6,7 +6,7 @@
                     <v-hover v-slot="{ hover }" open-delay="200">
                         <v-card :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }">
                             <router-link :to="`/product/${product.id}`">
-                                <v-img :src="'https://nodejsclusters-99563-0.cloudclusters.net/' + product.img_path" alt=""
+                                <v-img :src="host+'/' + product.img_path" alt=""
                                     class="" />
                             </router-link>
                         </v-card>
@@ -53,8 +53,7 @@
             <v-divider class="mt-2"></v-divider>
             <!-- <Cast :casts="product.credits.cast"  ss /> -->
             <v-divider class="mt-2"></v-divider>
-            <!-- <Images :images="'https://nodejsclusters-99563-0.cloudclusters.net/' +product.pro_image_path" /> -->
-        </v-container>
+      </v-container>
 
 
     </div>
@@ -96,6 +95,7 @@ stock_count: el.stock_count, -->
 </style>
     
 <script>
+import { hostName } from '~/common';
 export default {
     //   middleware: 'auths',
     layout: "products",
@@ -117,8 +117,12 @@ export default {
             // const tdate=sqlDatetimeNow.substring(0,11);
             return fdate;
         },
+        host() {
+            return hostName()
+        },
 
     },
+
     methods: {
         getFormatNum(val) {
             return new Intl.NumberFormat().format(val)

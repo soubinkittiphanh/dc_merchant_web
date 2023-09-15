@@ -2,7 +2,7 @@
     <v-hover v-slot="{ hover }" open-delay="400">
         <v-card :elevation="hover ? 16 : 2" :class="{ 'on-hover': hover }" @click="productDetail" class="mx-auto"
             max-width="344">
-            <v-img :src="'https://nodejsclusters-99563-0.cloudclusters.net/' + productItem.img_path" height="200px"
+            <v-img :src="host+'/'+ productItem.img_path" height="200px"
                 cover></v-img>
             <v-card-title class="subtitle-2">{{ productItem.title }}</v-card-title>
             <v-card-text>
@@ -21,7 +21,7 @@
         
             <v-card-actions>
                 <v-btn color="#FFA500">
-                    Add to cart
+                    Add to cart {{ host }}
                 </v-btn>
 
                 <v-btn color="#FFA500">
@@ -32,12 +32,18 @@
     </v-hover>
 </template>
 <script>
+import { hostName } from '~/common'
 export default {
     props: ["productItem"],
     data() {
         return {
             show: false,
         }
+    },
+    computed:{
+        host() {
+            return hostName()
+        },
     },
     methods: {
         getFormatNum(val) {
