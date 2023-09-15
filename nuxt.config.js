@@ -18,7 +18,8 @@ export default {
     ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/jack.jpeg' }
-      { rel: 'icon', type: 'image/x-icon', href: '/peeair.jpeg' }
+      // { rel: 'icon', type: 'image/x-icon', href: '/peeair.jpeg' }
+      { rel: 'icon', type: 'image/x-icon', href: '/app_logo.png' }
     ],
     script: [
       {
