@@ -32,6 +32,7 @@ const _14b2fd30 = () => interopDefault(import('../pages/admin/walletin/index.vue
 const _2d2d4281 = () => interopDefault(import('../pages/admin/walletout/index.vue' /* webpackChunkName: "pages/admin/walletout/index" */))
 const _14b69996 = () => interopDefault(import('../pages/admin/customer_request/topup.vue' /* webpackChunkName: "pages/admin/customer_request/topup" */))
 const _5b88ad94 = () => interopDefault(import('../pages/admin/customer_request/withdraw.vue' /* webpackChunkName: "pages/admin/customer_request/withdraw" */))
+const _17bdcabd = () => interopDefault(import('../pages/admin/login/index-copy.vue' /* webpackChunkName: "pages/admin/login/index-copy" */))
 const _1a208976 = () => interopDefault(import('../pages/admin/product/productlist.vue' /* webpackChunkName: "pages/admin/product/productlist" */))
 const _79bf3d26 = () => interopDefault(import('../pages/admin/advertise/mixins/ImagePreviewMixin.vue' /* webpackChunkName: "pages/admin/advertise/mixins/ImagePreviewMixin" */))
 const _5ec985c4 = () => interopDefault(import('../pages/admin/product/mixins/ImagePreviewMixin.vue' /* webpackChunkName: "pages/admin/product/mixins/ImagePreviewMixin" */))
@@ -163,6 +164,10 @@ export const routerOptions = {
     path: "/admin/customer_request/withdraw",
     component: _5b88ad94,
     name: "admin-customer_request-withdraw"
+  }, {
+    path: "/admin/login/index-copy",
+    component: _17bdcabd,
+    name: "admin-login-index-copy"
   }, {
     path: "/admin/product/productlist",
     component: _1a208976,

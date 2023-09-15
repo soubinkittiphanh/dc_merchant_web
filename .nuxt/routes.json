@@ -196,6 +196,13 @@
     "_name": "_5b88ad94"
   },
   {
+    "name": "admin-login-index-copy",
+    "path": "/admin/login/index-copy",
+    "component": "/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dcommerce_merchant_web/pages/admin/login/index-copy.vue",
+    "chunkName": "pages/admin/login/index-copy",
+    "_name": "_17bdcabd"
+  },
+  {
     "name": "admin-product-productlist",
     "path": "/admin/product/productlist",
     "component": "/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dcommerce_merchant_web/pages/admin/product/productlist.vue",

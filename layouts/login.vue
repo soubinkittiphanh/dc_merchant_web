@@ -1,5 +1,5 @@
 <template>
-    <v-main>
+     <v-main style="background-color: #CCDDD5;">
         <v-container>
             <Nuxt />
         </v-container>
