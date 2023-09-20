@@ -32,7 +32,7 @@
 
 
                             <v-col cols="12" sm="6" md="4">
-                                <v-text-field v-model="formData.pro_name" :counter="50" :rules="rules.nameRule"
+                                <v-text-field v-model="formData.pro_name" :counter="150" :rules="rules.nameRule"
                                     label="ຊື້ສິນຄ້າ*" required></v-text-field>
                             </v-col>
                             <v-col cols="12" sm="6" md="4">

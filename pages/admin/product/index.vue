@@ -39,7 +39,7 @@
       ></v-text-field>
       <v-text-field
         v-model="formData.pro_name"
-        :counter="10"
+        :counter="150"
         :rules="rules.nameRule"
         label="ຊື້ສິນຄ້າ"
         required
@@ -209,7 +209,7 @@ export default {
       },
       category: [],
       formData: {
-        pro_category: 1001,
+        pro_category: 1007,
         pro_id: null,
         pro_name: '',
         pro_price: 0,

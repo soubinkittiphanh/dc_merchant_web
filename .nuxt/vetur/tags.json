@@ -68,15 +68,6 @@
   "OrderSumaryCard": {
     "description": "Auto imported from components/orderSumaryCard.vue"
   },
-  "AccountingApPayment": {
-    "description": "Auto imported from components/accounting/ApPayment.vue"
-  },
-  "AccountingArReceivable": {
-    "description": "Auto imported from components/accounting/ArReceivable.vue"
-  },
-  "AccountingGeneralLedgerForm": {
-    "description": "Auto imported from components/accounting/GeneralLedgerForm.vue"
-  },
   "DashboardCardOnTop": {
     "description": "Auto imported from components/dashboard/CardOnTop.vue"
   },
@@ -88,6 +79,15 @@
   },
   "CardForm": {
     "description": "Auto imported from components/card/cardForm.vue"
+  },
+  "AccountingApPayment": {
+    "description": "Auto imported from components/accounting/ApPayment.vue"
+  },
+  "AccountingArReceivable": {
+    "description": "Auto imported from components/accounting/ArReceivable.vue"
+  },
+  "AccountingGeneralLedgerForm": {
+    "description": "Auto imported from components/accounting/GeneralLedgerForm.vue"
   },
   "PoForm": {
     "description": "Auto imported from components/po/PoForm.vue"
